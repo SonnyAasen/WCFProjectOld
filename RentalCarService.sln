@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{0EEE6FC6-0DAE-4B58-BBD8-9B38C69B2F04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalWCFService", "CarRentalWCFService\CarRentalWCFService.csproj", "{1E5BA099-F87E-486F-9BE3-14BC0D5ED4EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0EEE6FC6-0DAE-4B58-BBD8-9B38C69B2F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EEE6FC6-0DAE-4B58-BBD8-9B38C69B2F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EEE6FC6-0DAE-4B58-BBD8-9B38C69B2F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5BA099-F87E-486F-9BE3-14BC0D5ED4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5BA099-F87E-486F-9BE3-14BC0D5ED4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5BA099-F87E-486F-9BE3-14BC0D5ED4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5BA099-F87E-486F-9BE3-14BC0D5ED4EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
