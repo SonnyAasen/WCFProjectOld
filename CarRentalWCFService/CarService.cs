@@ -8,12 +8,12 @@ using BL;
 
 namespace CarRentalWCFService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "CarRentalWCFService" in both code and config file together.
-    public class CarRentalWCFService : ICarRentalWCFService
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "CarService" in both code and config file together.
+    public class CarService : ICarService
     {
         public void RemoveCar(string RegNr)
         {
-            var carService = new CarService();
+            var carService = new CarMethods();
             carService.Remove(RegNr);
         }
     }

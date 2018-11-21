@@ -8,7 +8,7 @@ using Domain;
 
 namespace BL
 {
-    public class CarService
+    public class CarMethods
     {
         // test commit
         public void Add(Car car)

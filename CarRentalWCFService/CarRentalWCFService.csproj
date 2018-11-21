@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarRentalWCFService.cs" />
-    <Compile Include="ICarRentalWCFService.cs" />
+    <Compile Include="CarService.cs" />
+    <Compile Include="ICarService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

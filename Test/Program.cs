@@ -15,7 +15,7 @@ namespace Test
             var start = DateTime.Now.AddDays(6);
             var end = DateTime.Now.AddDays(8);
 
-            var carData = new CarService();
+            var carData = new CarMethods();
             var cars = carData.GetAvailableCars(start, end);
         }
     }

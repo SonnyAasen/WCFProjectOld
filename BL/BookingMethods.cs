@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BL
 {
-    public class BookingService
+    public class BookingMethods
     {
         public void Create(Booking booking)
         {

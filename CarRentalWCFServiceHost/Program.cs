@@ -11,7 +11,7 @@ namespace CarRentalWCFServiceHost
     {
         static void Main(string[] args)
         {
-            using (ServiceHost host = new ServiceHost(typeof(CarRentalWCFService.CarRentalWCFService)))
+            using (ServiceHost host = new ServiceHost(typeof(CarRentalWCFService.CarService)))
             {
                 host.Open();
                 Console.WriteLine("Host started @ " + DateTime.Now.ToString());

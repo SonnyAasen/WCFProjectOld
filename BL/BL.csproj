@@ -44,9 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BookingService.cs" />
-    <Compile Include="CarService.cs" />
-    <Compile Include="CustomerService.cs" />
+    <Compile Include="BookingMethods.cs" />
+    <Compile Include="CarMethods.cs" />
+    <Compile Include="CustomerMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

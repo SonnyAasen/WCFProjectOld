@@ -8,7 +8,7 @@ using DAL;
 
 namespace BL
 {
-    public class CustomerService
+    public class CustomerMethods
     {
         public void Add(Customer customer)
         {
