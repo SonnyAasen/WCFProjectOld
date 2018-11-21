@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using BL;
+using Domain;
 
 namespace CarRentalWCFService
 {
@@ -15,6 +16,22 @@ namespace CarRentalWCFService
         {
             var carService = new CarMethods();
             carService.Remove(RegNr);
+        }
+
+        public void AddCar(Car car)
+        {
+            var carService = new CarMethods();
+
+            var newCar = new Domain.Car
+            {
+                Id = car.Id,
+                Brand = car.Brand,
+                Model = car.Model,
+                Year = car.Year,
+                RegNr = car.RegNr
+            };
+
+            carService.Add(newCar);
         }
     }
 }

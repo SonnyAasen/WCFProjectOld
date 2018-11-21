@@ -13,5 +13,8 @@ namespace CarRentalWCFService
     {
         [OperationContract]
         void RemoveCar(string RegNr);
+
+        [OperationContract]
+        void AddCar(Car car);
     }
 }
